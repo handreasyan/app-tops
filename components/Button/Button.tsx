@@ -1,7 +1,18 @@
-import { ButtonProps } from './Button.props'
 import styles from './Button.module.css'
 import cn from 'classnames'
 import ArrowIcon from './arrow.svg'
+
+import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from 'react'
+
+export interface ButtonProps
+  extends DetailedHTMLProps<
+    ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  > {
+  children: ReactNode
+  apperance: 'primary' | 'ghost'
+  arrow?: 'right' | 'down' | 'none'
+}
 
 export const Button = ({
   apperance,

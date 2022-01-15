@@ -1,8 +1,11 @@
-import { Htag, Button, Ptag, Tag } from '../components/index'
+import { useState } from 'react'
+import { Htag, Button, Ptag, Tag, Rating } from '../components/index'
 
 export default function Home(): JSX.Element {
+  const [rating, setRating] = useState(4)
   return (
     <div>
+      <Rating rating={rating} isEditable={true} setRating={setRating} />
       <Htag tag="h1">H1 Title</Htag>
       <Htag tag="h2">H2 Title</Htag>
       <Button apperance="ghost" arrow="right">
