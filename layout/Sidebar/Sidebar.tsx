@@ -1,5 +1,11 @@
 import styles from './Sidebar.module.css'
 
-export const Sidebar: React.FunctionComponent = ({ children }) => {
-  return <div>Sidebar</div>
+interface IProps {
+  className?: string
+}
+export const Sidebar: React.FunctionComponent<IProps> = ({
+  children,
+  className,
+}) => {
+  return <div className={className}>Sidebar</div>
 }
