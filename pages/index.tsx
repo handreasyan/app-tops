@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Htag, Button, Ptag, Tag, Rating } from '../components/index'
 import { withLayout } from '../layout/Layout'
 
+// next lesson => 11 - 001 SSR
+
 function Home(): JSX.Element {
   const [rating, setRating] = useState(4)
 
