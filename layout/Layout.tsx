@@ -2,6 +2,8 @@ import { Sidebar } from './Sidebar/Sidebar'
 import { Header } from './Header/Header'
 import { Footer } from './Footer/Footer'
 import styles from './Layout.module.css'
+import { AppContextProvider } from '../context/app.context'
+import { IAppContext } from './../context/app.context'
 
 const Layout: React.FunctionComponent = ({ children }) => {
   return (
@@ -14,14 +16,16 @@ const Layout: React.FunctionComponent = ({ children }) => {
   )
 }
 
-export const withLayout = <T extends Record<string, unknown>>(
+export const withLayout = <T extends Record<string, unknown> & IAppContext>(
   Component: React.FunctionComponent<T>
 ) => {
   return function withLayoutComponent(props: T): JSX.Element {
     return (
-      <Layout>
-        <Component {...props} />
-      </Layout>
+      <AppContextProvider menu={props.menu} firstCategory={props.firstCategory}>
+        <Layout>
+          <Component {...props} />
+        </Layout>
+      </AppContextProvider>
     )
   }
 }

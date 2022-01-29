@@ -36,18 +36,11 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
       <Tag size="m" color="primary">
         Size M color primary
       </Tag>
-      <ul>
-        {menu.map((item) => (
-          <li key={item._id.secondCategory}>{item._id.secondCategory}</li>
-        ))}
-      </ul>
     </>
   )
 }
 
 export default withLayout(Home)
-
-// next lesson => 12 - 01
 
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const firstCategory = 0
