@@ -7,8 +7,6 @@ interface IProps {
   className?: string
 }
 
-// next lesson 14.01
-
 export const Sidebar: React.FunctionComponent<IProps> = ({
                                                            children,
                                                            className,

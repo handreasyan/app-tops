@@ -2,16 +2,17 @@ import {GetStaticPaths, GetStaticProps, GetStaticPropsContext,} from 'next'
 import {withLayout} from '../../layout/Layout'
 import axios from 'axios'
 import {IMenuItem} from '../../interfaces/menu.interface'
-import {ITopPageModel} from '../../interfaces/page.interface'
+import {ITopPageModel, TopLevelCategory} from '../../interfaces/page.interface'
 import {ParsedUrlQuery} from 'querystring'
 import {IProductModel} from '../../interfaces/product.interface'
 import {firstLevelMenu} from "../../helpers/helpers";
+import TopPageComponent from "../../page-components/TopPageComponent/TopPage.component";
 
-function Course({menu, page, products}: CourseProps): JSX.Element {
-  return <>{products && products.length}</>
+function TopPage({firstCategory, page, products}: TopPageProps): JSX.Element {
+  return <TopPageComponent page={page} firstCategory={firstCategory} products={products}/>
 }
 
-export default withLayout(Course)
+export default withLayout(TopPage)
 
 export const getStaticPaths: GetStaticPaths = async () => {
   let paths: string[] = []
@@ -26,7 +27,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return {paths, fallback: true}
 }
 
-export const getStaticProps: GetStaticProps<CourseProps> = async (
+export const getStaticProps: GetStaticProps<TopPageProps> = async (
   {params}: GetStaticPropsContext<ParsedUrlQuery>) => {
 
   if (!params) {
@@ -63,8 +64,9 @@ export const getStaticProps: GetStaticProps<CourseProps> = async (
 
 }
 
-interface CourseProps extends Record<string, unknown> {
+interface TopPageProps extends Record<string, unknown> {
   menu: IMenuItem[]
-  firstCategory: number
+  firstCategory: TopLevelCategory;
+  page: ITopPageModel;
   products: IProductModel[]
 }

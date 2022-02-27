@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697c83f0-bc32-4be4-8eee-cb2983686406" name="Changes" comment="Routing created">
-      <change afterPath="$PROJECT_DIR$/helpers/helpers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/[type]/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Card/Card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Card/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HhData/HhData.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HhData/HhData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HhData/rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-components/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Tag/Tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tag/Tag.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Menu/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Menu/Menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Menu/icons/books.svg" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/icons/books.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Menu/icons/courses.svg" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/icons/courses.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Menu/icons/products.svg" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/icons/products.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Menu/icons/services.svg" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/icons/services.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/courses/[alias].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[type]/[alias].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/[type]/[alias].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[type]/[alias].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/HhData" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,6 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\projects\app-tops\components\HhData" />
+      <recent name="C:\Users\user\projects\app-tops\components" />
       <recent name="C:\Users\user\projects\app-tops\layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -92,8 +89,16 @@
       <workItem from="1643043817175" duration="656000" />
       <workItem from="1643385068754" duration="7999000" />
       <workItem from="1644352239369" duration="436000" />
-      <workItem from="1645977111491" duration="4845000" />
+      <workItem from="1645977111491" duration="8861000" />
     </task>
+    <task id="LOCAL-00001" summary="Routing created">
+      <created>1645985196752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645985196752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
