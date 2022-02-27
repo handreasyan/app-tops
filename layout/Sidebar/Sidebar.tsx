@@ -1,16 +1,23 @@
+import {Menu} from './../Menu/Menu'
+import Logo from '../logo.svg'
+import cn from "classnames";
 import styles from './Sidebar.module.css'
-import { Menu } from './../Menu/Menu'
 
 interface IProps {
   className?: string
 }
+
+// next lesson 14.01
+
 export const Sidebar: React.FunctionComponent<IProps> = ({
-  children,
-  className,
-}) => {
+                                                           children,
+                                                           className,
+                                                         }) => {
   return (
-    <div className={className}>
-      <Menu />
+    <div className={cn(className, styles.sidebar)}>
+      <Logo className={styles.logo}/>
+      <div>Seachr</div>
+      <Menu/>
     </div>
   )
 }
