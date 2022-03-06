@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697c83f0-bc32-4be4-8eee-cb2983686406" name="Changes" comment="Routing created">
-      <change afterPath="$PROJECT_DIR$/components/Card/Card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Card/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/HhData/HhData.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/HhData/HhData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/HhData/rate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Advantages/Advantages.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Advantages/Advantages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Advantages/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sort/Sort.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sort/Sort.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sort/sort.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-components/TopPageComponent/sort.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HhData/HhData.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/HhData/HhData.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HhData/HhData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HhData/HhData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/[type]/[alias].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[type]/[alias].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/helpers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helpers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/page.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/page.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="249XW7iRPm3hPEIpbmGX5xbWEa0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,10 +51,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/HhData" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Sort" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,8 +67,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\projects\app-tops\components\HhData" />
+      <recent name="C:\Users\user\projects\app-tops\components\Sort" />
       <recent name="C:\Users\user\projects\app-tops\components" />
+      <recent name="C:\Users\user\projects\app-tops\components\Advantages" />
+      <recent name="C:\Users\user\projects\app-tops\components\HhData" />
       <recent name="C:\Users\user\projects\app-tops\layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -89,7 +105,8 @@
       <workItem from="1643043817175" duration="656000" />
       <workItem from="1643385068754" duration="7999000" />
       <workItem from="1644352239369" duration="436000" />
-      <workItem from="1645977111491" duration="8861000" />
+      <workItem from="1645977111491" duration="8915000" />
+      <workItem from="1646511000297" duration="7782000" />
     </task>
     <task id="LOCAL-00001" summary="Routing created">
       <created>1645985196752</created>

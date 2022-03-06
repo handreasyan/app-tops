@@ -3,6 +3,7 @@ import React from 'react'
 import {IHhData} from "../../interfaces/page.interface";
 import {Card} from "../Card/Card";
 import RateIcon from './rate.svg'
+import {priceRu} from "../../helpers/helpers";
 
 export interface HhDataProps extends IHhData {
 }
@@ -19,9 +20,9 @@ export const HhData = ({count, juniorSalary, middleSalary, seniorSalary}: HhData
       <Card className={styles.salary}>
         <div>
           <div className={styles.title}>Junior</div>
-          <div className={styles.salaryValue}>{juniorSalary}</div>
+          <div className={styles.salaryValue}>{priceRu(juniorSalary)}</div>
           <div className={styles.rate}>
-            <RateIcon className={styles.filed}/>
+            <RateIcon className={styles.filled}/>
             <RateIcon/>
             <RateIcon/>
           </div>
@@ -29,21 +30,21 @@ export const HhData = ({count, juniorSalary, middleSalary, seniorSalary}: HhData
 
         <div>
           <div className={styles.title}>Middle</div>
-          <div className={styles.salaryValue}>{middleSalary}</div>
+          <div className={styles.salaryValue}>{priceRu(middleSalary)}</div>
           <div className={styles.rate}>
-            <RateIcon className={styles.filed}/>
-            <RateIcon className={styles.filed}/>
+            <RateIcon className={styles.filled}/>
+            <RateIcon className={styles.filled}/>
             <RateIcon/>
           </div>
         </div>
 
         <div>
           <div className={styles.title}>Senior</div>
-          <div className={styles.salaryValue}>{seniorSalary}</div>
+          <div className={styles.salaryValue}>{priceRu(seniorSalary)}</div>
           <div className={styles.rate}>
-            <RateIcon className={styles.filed}/>
-            <RateIcon className={styles.filed}/>
-            <RateIcon className={styles.filed}/>
+            <RateIcon className={styles.filled}/>
+            <RateIcon className={styles.filled}/>
+            <RateIcon className={styles.filled}/>
           </div>
         </div>
       </Card>
