@@ -12,6 +12,7 @@ export interface SortProps {
   setSort: (sort: SortEnum) => void
 }
 
+
 export const Sort = ({sort, setSort}: SortProps): JSX.Element => {
 
   return (

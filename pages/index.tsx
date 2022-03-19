@@ -1,16 +1,22 @@
-import { GetStaticProps } from 'next'
-import { useState } from 'react'
-import { Htag, Button, Ptag, Tag, Rating } from '../components/index'
-import { withLayout } from '../layout/Layout'
+import {GetStaticProps} from 'next'
+import {useState} from 'react'
+import {Htag, Button, Ptag, Tag, Rating, Input, Textarea} from '../components/index'
+import {withLayout} from '../layout/Layout'
 import axios from 'axios'
-import { IMenuItem } from '../interfaces/menu.interface'
+import {IMenuItem} from '../interfaces/menu.interface'
 
-function Home({ menu, firstCategory }: HomeProps): JSX.Element {
+function Home({menu, firstCategory}: HomeProps): JSX.Element {
   const [rating, setRating] = useState(4)
 
   return (
     <>
-      <Rating rating={rating} isEditable={true} setRating={setRating} />
+
+      <Input placeholder={'texst'}/>
+      <Textarea/>
+      <br/>
+      <br/>
+      <br/>
+      <Rating rating={rating} isEditable={true} setRating={setRating}/>
       <Htag tag="h1">H1 Title</Htag>
       <Htag tag="h2">H2 Title</Htag>
       <Button apperance="ghost" arrow="right">
@@ -45,7 +51,7 @@ export default withLayout(Home)
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const firstCategory = 0
 
-  const { data: menu } = await axios.post<IMenuItem[]>(
+  const {data: menu} = await axios.post<IMenuItem[]>(
     `${process.env.NEXT_PUBLIC_DOMAIN}/api/top-page/find`,
     {
       firstCategory,
@@ -53,7 +59,7 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   )
 
   return {
-    props: { menu, firstCategory },
+    props: {menu, firstCategory},
   }
 }
 

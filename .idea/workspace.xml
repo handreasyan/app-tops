@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697c83f0-bc32-4be4-8eee-cb2983686406" name="Changes" comment="Routing created">
-      <change afterPath="$PROJECT_DIR$/components/Advantages/Advantages.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Advantages/Advantages.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Advantages/checked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Sort/Sort.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Sort/Sort.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Sort/sort.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-components/TopPageComponent/sort.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Divider/Divider.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Divider/Divider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Product/Product.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Product/Product.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search/Search.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search/glass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Textarea/Textarea.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Textarea/Textarea.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HhData/HhData.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/HhData/HhData.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HhData/HhData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HhData/HhData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sort/Sort.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sort/Sort.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/helpers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helpers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/page.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/page.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/product.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/product.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Sort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,13 +68,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\projects\app-tops\components\Sort" />
       <recent name="C:\Users\user\projects\app-tops\components" />
+      <recent name="C:\Users\user\projects\app-tops\components\Sort" />
       <recent name="C:\Users\user\projects\app-tops\components\Advantages" />
       <recent name="C:\Users\user\projects\app-tops\components\HhData" />
       <recent name="C:\Users\user\projects\app-tops\layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\projects\app-tops\components\Search" />
+      <recent name="C:\Users\user\projects\app-tops\components\Textarea" />
+      <recent name="C:\Users\user\projects\app-tops\components\Input" />
       <recent name="C:\Users\user\projects\app-tops\helpers" />
     </key>
   </component>
@@ -106,7 +110,11 @@
       <workItem from="1643385068754" duration="7999000" />
       <workItem from="1644352239369" duration="436000" />
       <workItem from="1645977111491" duration="8915000" />
-      <workItem from="1646511000297" duration="7782000" />
+      <workItem from="1646511000297" duration="11123000" />
+      <workItem from="1647167818272" duration="649000" />
+      <workItem from="1647194498601" duration="1903000" />
+      <workItem from="1647453588378" duration="781000" />
+      <workItem from="1647687054019" duration="8620000" />
     </task>
     <task id="LOCAL-00001" summary="Routing created">
       <created>1645985196752</created>
