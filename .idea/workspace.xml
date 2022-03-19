@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697c83f0-bc32-4be4-8eee-cb2983686406" name="Changes" comment="Routing created">
-      <change afterPath="$PROJECT_DIR$/components/Divider/Divider.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Divider/Divider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Input/Input.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Product/Product.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Product/Product.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Search/Search.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Search/Search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Search/glass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Textarea/Textarea.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Textarea/Textarea.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sort/Sort.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sort/Sort.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/helpers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helpers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/product.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/product.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPage.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Product/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Product/Product.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +96,7 @@
       <workItem from="1647167818272" duration="649000" />
       <workItem from="1647194498601" duration="1903000" />
       <workItem from="1647453588378" duration="781000" />
-      <workItem from="1647687054019" duration="8620000" />
+      <workItem from="1647687054019" duration="8748000" />
     </task>
     <task id="LOCAL-00001" summary="Routing created">
       <created>1645985196752</created>
